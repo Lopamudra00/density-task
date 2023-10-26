@@ -1,0 +1,81 @@
+.a-img{
+    transform: scale(0.7);
+    margin-top: -2.7rem;
+    margin-left: -2.7rem;
+    z-index: 10;
+}
+.a-wrapper{
+    padding-top: 0.5rem;
+    margin-top: 0rem;
+    position: relative;
+    border-radius: 40px;
+    background-color: #fdf7f2;
+    height: 90vh;
+    width: 100%;
+}
+.a-container{
+    display: flex;
+}
+.a-text{
+    margin-top:7rem ;
+    margin-bottom: -10rem;
+    margin-left: 7rem;
+}
+.a-title{
+    font-size: 3.5rem;
+    margin-top: 10rem;
+    margin-left: 7rem;
+    margin-bottom: -10rem;
+}
+.a-left{
+    padding: 1rem;
+}
+.a-right{
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.para-1{
+    margin-left: 9rem;
+    margin-top: 17rem;
+    font-size: 1.3rem;
+    display: flex;
+    width: 30rem;
+    height: 7rem;
+}
+.para-2{
+    margin-left: 9rem;
+    font-size: 1.3rem;
+    display: flex;
+    width: 30rem;
+    height: 8rem;
+
+}
+.visible-state{
+    z-index: -20; /* Set the z-index for the visible state */
+}
+.hidden-state{
+    z-index: -20; /* Set the default z-index */
+    
+}
+.bg-orange-circle{
+    z-index: -30;
+    background-color: #f5e2dd;
+    height: 20rem;
+    width: 20rem;
+    margin-top: 17rem;
+    margin-left: -7rem;
+    border-radius: 50%;
+    border: #fff solid 2px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.bg-white-circle{
+    z-index: 10;
+    height: 13rem;
+    width: 13rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -22rem;
+    margin-left: 7rem;
+    border: #e6e3e3 sol;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
